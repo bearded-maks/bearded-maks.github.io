@@ -331,7 +331,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
@@ -787,4 +787,48 @@ section {
 }
 .partner-logo {
   object-fit: cover;
+}
+
+
+.text-link {
+  text-decoration: underline;
+  color: black;
+}
+.text-link:hover {
+  color: rgb(58, 58, 58);
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.condition-list {
+  list-style:decimal;
+  font-weight: bold;
+}
+
+.condition-list li p{
+  font-weight: normal;
+}
+
+.condition-list__item {
+  margin-bottom: 40px;
+}
+
+.condition-list__item ol  {
+  font-weight: normal;
+  list-style: none;
+  padding: 0;
+}
+
+.condition-sublist {
+  list-style: none;
+}
+
+.list-item__line{
+  margin-left: 10px;
+    font-weight: normal;
+}
+
+.list-item__line::before {
+  content: "–";
+  margin-right: 10px;
 }
